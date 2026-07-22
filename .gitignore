@@ -1,0 +1,26 @@
+# Secure Credentials (Explicit Protection)
+config.py
+.env
+client_secret*.json
+*.json
+
+# Python Environment & Cache
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Local Factory Data & Media Outputs
+data/
+output/
+*.mp4
+*.wav
+
+# Heavy Asset Folders (e.g. Master Gameplay Videos)
+assets/gameplay/
+assets/raw_video/
+assets/temp/
+
+# OS Specific Files
+.DS_Store
+Thumbs.db
